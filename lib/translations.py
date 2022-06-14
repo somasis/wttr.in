@@ -8,7 +8,7 @@ FULL_TRANSLATION = [
     "am", "ar", "af", "be", "bn",  "ca", "da", "de", "el", "et",
     "fr", "fa", "hi", "hu", "ia", "id", "it", "lt", "mg",
     "nb", "nl", "oc", "pl", "pt-br", "ro",
-    "ru", "ta", "tr", "th", "uk", "vi", "zh-cn", "zh-tw",
+    "ru", "ta", "tr", "th", "tok", "uk", "vi", "zh-cn", "zh-tw",
 ]
 
 PARTIAL_TRANSLATION = [
@@ -323,6 +323,11 @@ iray amin'ireo toerana mangatsiaka indrindra tsisy mponina eto an-tany.
 எனவே நாங்கள் உங்களை ஓமியாகோனுக்கு அழைத்து வந்தோம்.
 கிரகத்தின் குளிர்ந்த நிரந்தரமாக வசிக்கும் இடங்களில் ஒன்று.
 """,
+        'tok': u"""
+mi ken ala alasa e ma sina.
+taso sina ken lukin e ma lili Oymyakon.
+lete pi ma lili ni li wawa. ken la, ona li lete nanpa wan pi ma ale!
+""",
     },
 
     'UNKNOWN_LOCATION': {
@@ -384,6 +389,7 @@ iray amin'ireo toerana mangatsiaka indrindra tsisy mponina eto an-tany.
         'zh-tw': u'未知位置',
         'mg': u'Toerana tsy fantatra',
         'ta': u'தெரியாத இடம்',
+        'tok': u'mi sona ala e ma ni',
     },
 
     'LOCATION': {
@@ -443,6 +449,7 @@ iray amin'ireo toerana mangatsiaka indrindra tsisy mponina eto an-tany.
         'zh-tw': u'位置',
         'mg': u'Toerana',
         'ta': u'இடம்',
+        'tok': u'ma',
     },
 
     'CAPACITY_LIMIT_REACHED': {
@@ -757,6 +764,13 @@ Azonao atao ny manaraka ny pejy https://twitter.com/igor_chubin.
 கூடிய விரைவில் புதிய வினவல்களைப் பெறுவோம்.
 புதுப்பிப்புகளுக்கு நீங்கள் https://twitter.com/igor_chubin ஐப் பின்தொடரலாம்.
 """,
+        'tok': u"""
+mi pakala. ilo li ken ala toki tawa ilo pi pana wawa lon tenpo ni. toki mi li ike mute.
+mi pana e wawa sewi pi ma ilo. kepeken ni la sina ken lukin e lukin pi ilo ni.
+tenpo kama lili la mi ken kama toki tawa ilo pi pana wawa.
+sina ken kama sona e kama pona pi pakala ni lon linja https://twitter.com/igor_chubin.
+======================================================================================
+""",
     },
 
     # Historical messages:
@@ -811,6 +825,7 @@ Azonao atao ny manaraka ny pejy https://twitter.com/igor_chubin.
         'zh-tw': u'新功能：多語言地點名稱 \033[92mwttr.in/станция+Восток\033[0m （使用 UTF-8 編碼）與位置搜尋 \033[92mwttr.in/~Kilimanjaro\033[0m （只要在地點前加 ~ 就可以了）',
         'mg': u'Fanatsrana vaovao: anarana toerana amin\'ny fiteny maro\033[92mwttr.in/станция+Восток\033[0m (en UTF-8) sy fitadiavana toerana \033[92mwttr.in/~Kilimanjaro\033[0m (ampio ~ fotsiny eo aloha)',
         'ta': u'புதிய அம்சம்: பன்மொழி இருப்பிடப் பெயர்கள் \033[92mwttr.in/станция+Восток\033[0m (UTF-8 இல்) மற்றும் இருப்பிடத் தேடல் \033[92mwttr.in/~Kilimanjaro\033[0m (முன் ~ஐச் சேர்க்கவும்)',
+        'tok': u'ken sin: nimi ma pi toki ale \033[92mwttr.in/станция+Восток\033[0m (lon nasin Juniko) en alasa ma \033[92mwttr.in/~Kilimanjaro\033[0m (o pana e sitelen "~" tawa open pi nimi ma)',
     },
 
     'FOLLOW_ME': {
@@ -862,6 +877,7 @@ Azonao atao ny manaraka ny pejy https://twitter.com/igor_chubin.
         'zh-tw': u'追蹤 \033[46m\033[30m@igor_chubin\033[0m 以取得更多 wttr.in 的動態',
         'mg': u'Araho ao ny pejy \033[46m\033[30m@igor_Chubin\033[0m raha toa ka te hahazo vaovao momban\'ny wttr.in',
         'ta': u'wttr.in புதுப்பிப்புகளுக்கு \033[46m\033[30m@igor_chubin\033[0m ஐப் பின்தொடரவும்',
+        'tok': u'o kama sona e ijo sin pi ilo wttr.in lon linja \033[46m\033[30m@igor_chubin\033[0m',
     },
 }
 CAPTION = {
@@ -935,6 +951,7 @@ CAPTION = {
     "zh-tw": u"天氣報告：",
     "mg": u"Toetr\'andro any :",
     "ta": u"வானிலை அறிக்கை:",
+    "tok": u"wawa sewi pi ma ni:",
 }
 
 def get_message(message_name, lang):

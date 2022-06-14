@@ -1,0 +1,69 @@
+nasin kepeken:
+
+    $ curl wttr.in          # ma sina la wawa sewi
+    $ curl wttr.in/muc      # ma tomo Munich la tomo pi tomo tawa kon la wawa sewi
+
+ken ma:
+
+    /paris                  # nimi pi ma tomo
+    /~Eiffel+tower          # ma ale li ken (o kepeken sitelen "+" tawa sitelen " ")
+    /Москва                 # nimi ma pi toki ale lon nimi Juniko
+    /muc                    # tomo pi tomo tawa kon la nanpa tomo (sitelen 3)
+    /@stackoverflow.com     # nimi ilo
+    /94107                  # nanpa ma
+    /-78.46,106.79          # nanpa ma pi nasin GPS
+
+ken pi lukin mun:
+
+    /moon                   # lukin mun (sina wile e ma la o pana e nimi ",+<ma>")
+    /moon@2016-10-25        # lukin mun pi tenpo wile (@2016-10-25)
+
+nasin nanpa:
+
+    m                       # nasin SI (ilo li kepeken ni lon ma Mewika ala)
+    u                       # nasin USCS (ilo li kepeken ni lon ma Mewika)
+    M                       # o kepeken linja Metu pi tenpo Sekon tawa wawa kon
+
+nasin lukin:
+
+    0                       # wawa sewi pi tenpo lon taso
+    1                       # tenpo lon en tenpo kama pi suno ni la wawa sewi
+    2                       # tenpo lon en tenpo kama pi suno ni en tenpo kama pi suno kama
+    A                       # o kepeken ala nimi ilo "User-Agent". o kepeken nasin ANSI taso (ilo sitelen)
+    F                       # o pana ala e toki pi ijo sin
+    n                       # lukin lili (tenpo suno taso en tenpo pimeja taso)
+    q                       # toki lili (nimi "wawa sewi pi ma ni" li weka)
+    Q                       # toki lili lili (nimi "wawa sewi pi ma ni" en nimi ma li weka)
+    T                       # o pana ala e nasin sitelen ANSI (toki li kule ala)
+
+ken pi nasin sitelen PNG:
+
+    /paris.png              # o pali e sitelen
+    p                       # o pana e selo tawa sitelen
+    t                       # lukin ala pi insa sitelen li mute 150
+    transparency=...        # lukin ala pi insa sitelen li ken mute 0 tawa mute 255 (255 = lukin ala ala)
+    background=...          # nanpa kule pi len sitelen (RRGGBB)
+
+sina ken wan e wile sina:
+
+    /Paris?0pq
+    /Paris?0pq&lang=fr
+    /Paris_0pq.png          # sitelen la o pana e sitelen "_" lon open pi wile sina
+    /Rome_0pq_lang=it.png   # o tu e wile mute kepeken sitelen "_"
+
+ken toki:
+
+    $ curl fr.wttr.in/Paris
+    $ curl wttr.in/paris?lang=fr
+    $ curl -H "Accept-Language: fr" wttr.in/paris
+
+toki ken:
+
+    FULL_TRANSLATION (ante toki li pini)
+    PARTIAL_TRANSLATION (ante toki li pini ala)
+
+linja sona:
+
+    /:help                  # lipu ni
+    /:bash.function         # o pana e ilo lili wttr() pi ilo Bash
+    /:translation           # lipu jan pi ante toki

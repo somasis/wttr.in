@@ -63,6 +63,7 @@ var (
 		"sw":     "sw_KE",
 		"ta":     "ta_IN",
 		"th":     "th_TH",
+		"tok":    "tok",
 		"tr":     "tr_TR",
 		"uk":     "uk_UA",
 		"uz":     "uz_UZ",
@@ -144,6 +145,7 @@ var (
 		"zh-cn":  "天气预报：",
 		"zh-tw":  "天氣預報：",
 		"mg":     "Vinavina toetr'andro hoan'ny:",
+		"tok":    "lipu pi wawa sewi kama lon ma ni:",
 	}
 
 	daytimeTranslation = map[string][]string{
@@ -218,6 +220,7 @@ var (
 		"zh-tw":  {"早上", "中午", "傍晚", "夜間"},
 		"zu":     {"Morning", "Noon", "Evening", "Night"},
 		"mg":     {"Maraina", "Tolakandro", "Ariva", "Alina"},
+		"tok":    {"tenpo pi suno open", "tenpo suno", "tenpo pi suno weka", "tenpo pimeja"},
 	}
 
 	unitTemp = map[bool]string{

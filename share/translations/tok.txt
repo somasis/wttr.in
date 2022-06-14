@@ -1,0 +1,47 @@
+113: sewi pona                          : Clear
+113: suno pona                          : Sunny
+116: walo lili lon sewi                 : Partly cloudy
+119: walo lon sewi                      : Cloudy
+122: walo mute lon sewi                 : Overcast
+143: telo lili li lon kon               : Mist
+176: telo lili li ken                   : Patchy rain possible
+179: lete lili li ken                   : Patchy snow possible
+182: lete telo lili li ken              : Patchy sleet possible
+185: telo lili lete li ken              : Patchy freezing drizzle possible
+200: kalama sewi li ken                 : Thundery outbreaks possible
+227: lete tan anpa li tawa lon kon      : Blowing snow
+230: lete wawa li tawa lon kon          : Blizzard
+248: kon li lukin walo                  : Fog
+260: kon walo li lete mute              : Freezing fog
+263: telo lili lili li ken lili         : Patchy light drizzle
+266: telo lili lili li lili             : Light drizzle
+281: telo lili lili lete li lon         : Freezing drizzle
+284: telo lili lili lete li wawa lon    : Heavy freezing drizzle
+293: telo lili li ken lili              : Patchy light rain
+296: telo lili li lili                  : Light rain
+299: telo li ken                        : Moderate rain at times
+302: telo li lon                        : Moderate rain
+305: telo mute li ken                   : Heavy rain at times
+308: telo mute li lon                   : Heavy rain
+311: telo lili lete                     : Light freezing rain
+314: telo lete                          : Moderate or heavy freezing rain
+317: lete telo lili                     : Light sleet
+320: lete telo mute                     : Moderate or heavy sleet
+323: lete lili li ken                   : Patchy light snow
+326: lete lili li lili                  : Light snow
+329: lete li ken                        : Patchy moderate snow
+332: lete li lon                        : Moderate snow
+335: lete mute li ken                   : Patchy heavy snow
+338: lete mute li lon                   : Heavy snow
+350: kiwen lete                         : Ice pellets
+353: telo lon tenpo lili                : Light rain shower
+356: telo mute lon tenpo lili           : Moderate or heavy rain shower
+359: telo wawa lon tenpo lili           : Torrential rain shower
+362: lete telo lili lon tenpo lili      : Light sleet showers
+365: lete telo lon tenpo lili           : Moderate or heavy sleet showers
+368: lete lili lon tenpo lili           : Light snow showers
+371: lete lon tenpo lili                : Moderate or heavy snow showers
+386: telo lili en kalama sewi li ken    : Patchy light rain with thunder
+389: telo en kalama sewi li lon         : Moderate or heavy rain with thunder
+392: lete lili en kalama sewi li ken    : Patchy light snow with thunder
+395: lete lili en kalama sewi li lon    : Moderate or heavy snow with thunder

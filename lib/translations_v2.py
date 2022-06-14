@@ -76,4 +76,5 @@ V2_TRANSLATION = {
     "zu": ("Isimo sezulu:",                 "", "", "", "", "", "", "", ""),
     "mg": ("Vinavina toetr'andro hoany :",  "Toetr'andro", "Faritra ora", "Ora", "Mangirandratsy", "Maneno akoho", "Mitatao vovonana", "Masoandro milentika", "Crépuscule"),
     "ta": ("வானிலை அறிக்கை:",           "வானிலை",  "நேரம் மண்டலம்",     "இப்போது",      "விடியல்",             "சூரிய உதயம்",      "ஜெனித்",       "சூரிய அஸ்தமனம்",           "அந்தி"),
+    "tok": ("lipu pi wawa sewi lon ma:",     "wawa sewi", "tenpo lon ma", "lon", "open suno", "kama suno", "suno", "tawa suno", "weka suno"),
     }
